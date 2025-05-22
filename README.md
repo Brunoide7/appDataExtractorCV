@@ -35,3 +35,26 @@ git clone https://github.com/Brunoide7/DataExtractorCV.git
 cd DataExtractorCV
 pip install -r requirements.txt
 streamlit run main.py
+```
+## 🛠️ Posibles mejoras
+
+  - Añadir extracción de más campos como experiencia laboral, educación o certificaciones.
+
+  - Incorporar soporte para múltiples idiomas en los documentos.
+  
+  - Soporte para procesar múltiples PDFs a la vez.
+
+  - Mejora de la precisión usando técnicas de RAG (Retrieval-Augmented Generation) con contexto adicional.
+
+  - Almacenamiento opcional en bases de datos como SQLite o Firebase.
+
+## 🧩 Posibles variantes de extractor
+La misma lógica de extracción puede adaptarse fácilmente a otras aplicaciones como:
+
+- Extractor de noticias: toma URLs o textos completos de noticias y extrae título, fecha, autor, y resumen.
+  
+- Extractor de contratos: identifica nombres de partes involucradas, fechas clave, cláusulas importantes, etc.
+  
+- Extractor de facturas: detecta número de factura, fecha, cliente, monto total, productos listados.
+  
+- Extractor de papers académicos: obtiene título, autores, resumen, palabras clave y referencias.
