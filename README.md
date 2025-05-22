@@ -14,16 +14,19 @@
 DataExtractorCV es una aplicación que extrae automáticamente información clave (nombre, apellido, profesión, habilidades e idiomas) de currículums en formato PDF utilizando un modelo de lenguaje de OpenAI a través de LangChain y Streamlit.
 
 ## ✨ Características principales
-- Interfaz desarrollada con Streamlit.
+- Interfaz web desarrollada con Streamlit.
 - Carga de archivos PDF para análisis.
 - Extracción estructurada de información usando esquemas definidos con Pydantic.
 - Integración con OpenAI y LangChain para procesamiento y extracción inteligente.
 - Guarda temporalmente el PDF para su procesamiento con PyPDFLoader.
 - Muestra los datos extraídos en una tabla interactiva.
+- Compatible con despliegue en Streamlit Cloud.
 
 ## 📸 Captura / Demo
 
 ![Captura de pantalla](https://github.com/user-attachments/assets/6192d51c-f807-4ba6-8daf-ef953f9beb84)
+
+👉 [Ver en Streamlit](https://appdataextractorcv.streamlit.app/)
 
 ## 📦 Requisitos / Instalación
 
